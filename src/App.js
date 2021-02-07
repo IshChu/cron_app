@@ -8,7 +8,12 @@ function App() {
   return (
     <div>
       <CronToggle 
-	    cronstring='*/8 * * * * *' 
+	    cronstring='*/10 * * * * *' 
+		notifDuration='6500'
+		message='THIS IS A TEST'
+	  />
+	  <CronToggle 
+	    cronstring='0 14,44 * * * *' 
 		notifDuration='6500'
 		message='IT IS TIME FOR MVP'
 	  />
